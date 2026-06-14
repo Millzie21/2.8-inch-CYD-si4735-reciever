@@ -972,8 +972,6 @@ void setup() {
   int16_t si4735Addr = si4735.getDeviceI2CAddress(RESET_PIN);
   Beep(1, 200);
   tft.init();
-  tft.setSwapBytes(true);
-  spr.setSwapBytes(true);
   
   // Calibration code for touchscreen : for 2.8 inch & Rotation = 1
   tft.setRotation(1);
