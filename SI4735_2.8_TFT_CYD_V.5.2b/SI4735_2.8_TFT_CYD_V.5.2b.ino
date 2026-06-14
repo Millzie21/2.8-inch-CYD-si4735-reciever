@@ -1005,8 +1005,8 @@ void setup() {
   tft.setTextSize(2);
   tft.setTextColor(TFT_YELLOW, TFT_BLACK);
 
-  Serial.println("     SI4735/32 Radio");
-  Serial.println("Version 5.2b 17-09-2022");
+  Serial.println("     SI4735/32 CYD 2.8 Radio");
+  Serial.println("Version 5.31b 17-05-2026");
 
   spr.createSprite(265, 120);
   spr.fillScreen(COLOR_BACKGROUND);
@@ -1014,14 +1014,14 @@ void setup() {
   spr.pushSprite(27, 120);
   spr.deleteSprite();
   
-  tft.println("SI4735/32  Radio");
+  tft.println("SI4735/32 CYD 2.8 Radio");
   tft.setCursor(7, 70);
-  tft.println(" Version 5.2b");
+  tft.println(" Version 5.31b");
   tft.setCursor(7, 95);
-  tft.println(" 17-09-2022");
+  tft.println(" 14-06-2026");
   tft.setTextColor(TFT_WHITE, TFT_BLACK);
   tft.setCursor(7, 120);
-  tft.println(" IU4ALH Mod.- Github");
+  tft.println(" Millzie Mod.- Github");
   tft.setTextColor(TFT_CYAN, TFT_BLACK);
   tft.setTextSize(1);
   tft.setCursor(0, 220);
